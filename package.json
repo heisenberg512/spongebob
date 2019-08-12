@@ -1,0 +1,19 @@
+{
+  "name": "spongebob",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "Azrael",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "google-translate-api": "^2.3.0",
+    "ms": "^2.1.2",
+    "random-puppy": "^1.1.0",
+    "snekfetch": "^4.0.4",
+    "weather-js": "^2.0.0"
+  }
+}
