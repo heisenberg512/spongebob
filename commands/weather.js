@@ -26,7 +26,7 @@ module.exports.run = async(bot, message, args) => {
    .addField("Humidity", `${current.humidity}%`, true)
    .setTimestamp();
 
-
+     message.delete();
      message.channel.send(wembed);
 
   });
