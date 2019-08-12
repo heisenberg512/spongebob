@@ -8,7 +8,6 @@ module.exports.run = async(bot, message, args) => {
  .setTitle("Commands")
  .addField("roast", "insults/roasts the targeted user")
  .addField("avatar", "send an enalarged image of the user's avatar")
- .addField("prefix", "change the prefix of the bot")
  .addField("ban", "bans the targeted user")
  .addField("meme", "sends random memes")
  .addField("unban", "unbans the targeted user")
