@@ -7,6 +7,7 @@ module.exports.run = async (bot, message, args) => {
   message.channel.bulkDelete(args[0]).then(() => {
     message.channel.send(`Cleared ${args[0]} messages.`).then(msg => msg.delete(5000));
   });
+message.delete();
 }
 
 
