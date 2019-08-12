@@ -12,6 +12,8 @@ module.exports.run = async (bot, message, args) =>{
     //user's avtar
    .setColor("#ffe43d")
    .setTimestamp();
+  //deletes message
+  message.delete();
    //sends avatar
   message.channel.send(avatarembed);
 }
