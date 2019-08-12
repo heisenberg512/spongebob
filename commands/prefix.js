@@ -19,7 +19,9 @@ let pEmbed = new Discord.RichEmbed()
 .addField("New Prefix", `${args[0]} is the new prefix`)
 .setColor("#00FF00")
 
+message.delete();
 message.channel.send(pEmbed);
+
 }
 
 
