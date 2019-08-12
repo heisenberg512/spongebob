@@ -13,6 +13,7 @@
     "google-translate-api": "^2.3.0",
     "ms": "^2.1.2",
     "random-puppy": "^1.1.0",
+    "npm": "^6.0.1",
     "snekfetch": "^4.0.4",
     "weather-js": "^2.0.0"
   }
