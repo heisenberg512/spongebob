@@ -6,7 +6,7 @@ module.exports.run = async(bot, message, args) => {
   let cembed = new Discord.RichEmbed()
 
  .setTitle("Commands")
- .addField("roast", "insults/roasts the targeted user")
+ //.addField("roast", "insults/roasts the targeted user")
  .addField("avatar", "send an enalarged image of the user's avatar")
  .addField("ban", "bans the targeted user")
  .addField("meme", "sends random memes")
