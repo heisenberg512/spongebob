@@ -6,10 +6,8 @@ const randompuppy = require("random-puppy");
 module.exports.run = async(bot, message, args) =>{
  
     let reddit = [
-        "animemes",
-        "MemesOfAnime",
+        "PewdiepieSubmissions",
         "MinecraftMemes",
-        "animememes",
         "comedyCemetery",
         "MemeEconomy",
         "TinyPickelRick",
